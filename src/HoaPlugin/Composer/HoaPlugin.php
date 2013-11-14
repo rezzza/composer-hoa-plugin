@@ -4,8 +4,10 @@ namespace HoaPlugin\Composer;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
+use Composer\Plugin\PluginInterface;
+use HoaPlugin\AutoloadGenerator;
 
-class HoaPlugin
+class HoaPlugin implements PluginInterface
 {
     /**
      * Set hoa\core require in last position.
