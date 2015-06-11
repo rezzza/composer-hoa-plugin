@@ -2,7 +2,7 @@
     "name": "rezzza/composer-hoa-plugin",
     "type": "composer-plugin",
     "require": {
-        "composer-plugin-api": "1.0.0"
+        "composer-plugin-api": "^1.0"
     },
     "require-dev": {
         "composer/composer": "1.*@dev"
